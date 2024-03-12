@@ -28,8 +28,8 @@ const renderMovies =(movies)=>{
                         <p class="title">${title}</p>
                         <section class="vote-favoriteIcon" >
                             <section class="vote">
-                                <p class="vote-count">${vote_count}</p>
-                                <p class="vote-average">${vote_average}</p>
+                                <p class="vote-count">Votes ${vote_count}</p>
+                                <p class="vote-average">Rating ${vote_average}</p>
                             </section>
                             <i class="favorite-icon fa-regular fa-heart fa-2xl" id="${title}" ></i>
                         </section> `;
